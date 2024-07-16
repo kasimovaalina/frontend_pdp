@@ -1,6 +1,18 @@
 # Формы
 ## Нативные формы
 Формы, в которых используются нативные тэги `<button>`, `<input>`, `<textarea>` и прочие.
+Списочек с элементами:
+- `<input>`
+- `<label>`
+- `<select>`
+- `<textarea>`
+- `<button>`
+- `<fieldset>`
+- `<legend>`
+- `<datalist>`
+- `<output>`
+- `<option>`
+- `<optgroup>`
 ## Типы полей ввода
 Полный список из W3Schools
 - `<input type="button">`
