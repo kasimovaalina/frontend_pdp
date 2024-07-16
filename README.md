@@ -64,4 +64,33 @@
         - Каррирование*
         - Ссылочный тип*
         - BigInt
+- React
+    - useEffect vs useLayoutEffect
+    - useCallback vs useMemo
+    - Алгоритм согласования (reconciliation)
+    - Повторный рендеринг, его причины и способы решения
+    - Lazy loading и Suspense    
+    - MobX
+    - Тестирование компонентов
+    - Storybook
+    - Next.js
+- Инструменты
+    - Линтеры и форматеры
+        - Prettier
+        - ESLint
+        - airbnb style guide
+    - Сборка
+        - Webpack
+        - Vite
+- Общие моменты
+    - Хранение данных в браузере (Куки, document.cookie, LocalStorage, sessionStorage, IndexedDB)
+    - Способы профилирования
+    - Анализ производительности приложения и методы оптимизации
+    - Способы оптимизации ресурсов приложения
+    - Авторизация, аутентификация, Bearer Token, JWT, OAuth
+    - Web & Service Workers*
+    - PWA*
+    - Доступность приложения
+    - Web-компоненты*
+
 
