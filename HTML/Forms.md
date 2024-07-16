@@ -55,7 +55,29 @@
       - Если пользователь пытается отправить данные, браузер заблокирует форму и выведет сообщение об ошибке.
         
 - JavaScript-валидация
-  
+    Форма:
+    ```
+    <form>
+      <label for="mail"
+        >I would like you to provide me with an e-mail address:</label
+      >
+      <input type="email" id="mail" name="mail" />
+      <button>Submit</button>
+    </form>
+    ```
+    
+    Обработчик события:
+    ```
+    const email = document.getElementById("mail");
+    
+    email.addEventListener("input", function (event) {
+      if (email.validity.typeMismatch) {
+        email.setCustomValidity("I am expecting an e-mail address!");
+      } else {
+        email.setCustomValidity("");
+      }
+    });
+    ```
 
 ## Стилизация
   - Стилизация checkbox
