@@ -8,5 +8,5 @@
 4. Тэг `<embed>`
    ```<embed src="My_SVG.svg" type="image/svg+xml" />```
 5. Тэг `<iframe>`
-   ```<iframe src="My_SVG.svg"></iframe>```
+    ```<iframe src="My_SVG.svg"></iframe>```
    
