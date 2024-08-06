@@ -43,3 +43,8 @@ sayHi(); // Hello, Guest
 func(); // Ошибка, func не определена (недоступна вне функции)
 ```
 ## Синтаксис "new Function"
+```
+let sum = new Function('a', 'b', 'return a + b');
+
+alert( sum(1, 2) ); // 3
+```
