@@ -66,8 +66,8 @@
         - BigInt :x:
 - React :x:
     - useEffect vs useLayoutEffect :heavy_check_mark:
-    - useCallback vs useMemo :x:
-    - Алгоритм согласования (reconciliation) :x:
+    - useCallback vs useMemo :heavy_check_mark:
+    - Алгоритм согласования (reconciliation) :heavy_check_mark:
     - Повторный рендеринг, его причины и способы решения :x:
     - Lazy loading и Suspense :x:
     - MobX :x:
